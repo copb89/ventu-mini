@@ -1,0 +1,20 @@
+package py.com.ventu.entidades;
+
+import java.util.Date;
+import javax.annotation.Generated;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="EclipseLink-2.5.1.v20130918-rNA", date="2015-12-19T19:44:54")
+@StaticMetamodel(Usuario.class)
+public class Usuario_ { 
+
+    public static volatile SingularAttribute<Usuario, Integer> id;
+    public static volatile SingularAttribute<Usuario, String> nombre;
+    public static volatile SingularAttribute<Usuario, String> username;
+    public static volatile SingularAttribute<Usuario, String> usuarioMod;
+    public static volatile SingularAttribute<Usuario, String> contrasena;
+    public static volatile SingularAttribute<Usuario, Date> fechaMod;
+    public static volatile SingularAttribute<Usuario, Boolean> esAdmin;
+
+}
