@@ -234,7 +234,7 @@ public class FrmTipoProductos extends javax.swing.JInternalFrame {
         tbrHerramientas.setRollover(true);
 
         cmdNuevo.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        cmdNuevo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/karu/imagenes/nuevo_24.png"))); // NOI18N
+        cmdNuevo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/ventu/imagenes/nuevo_24.png"))); // NOI18N
         cmdNuevo.setText("Nuevo");
         cmdNuevo.setFocusable(false);
         cmdNuevo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -247,7 +247,7 @@ public class FrmTipoProductos extends javax.swing.JInternalFrame {
         tbrHerramientas.add(cmdNuevo);
 
         cmdEditar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        cmdEditar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/karu/imagenes/editar_24.png"))); // NOI18N
+        cmdEditar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/ventu/imagenes/editar_24.png"))); // NOI18N
         cmdEditar.setText("Editar");
         cmdEditar.setFocusable(false);
         cmdEditar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -260,7 +260,7 @@ public class FrmTipoProductos extends javax.swing.JInternalFrame {
         tbrHerramientas.add(cmdEditar);
 
         cmdGuardar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        cmdGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/karu/imagenes/guardar_24.png"))); // NOI18N
+        cmdGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/ventu/imagenes/guardar_24.png"))); // NOI18N
         cmdGuardar.setText("Guardar");
         cmdGuardar.setEnabled(false);
         cmdGuardar.setFocusable(false);
@@ -274,7 +274,7 @@ public class FrmTipoProductos extends javax.swing.JInternalFrame {
         tbrHerramientas.add(cmdGuardar);
 
         cmdCancelar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        cmdCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/karu/imagenes/cancelar_24.png"))); // NOI18N
+        cmdCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/ventu/imagenes/cancelar_24.png"))); // NOI18N
         cmdCancelar.setText("Cancelar");
         cmdCancelar.setEnabled(false);
         cmdCancelar.setFocusable(false);
@@ -288,7 +288,7 @@ public class FrmTipoProductos extends javax.swing.JInternalFrame {
         tbrHerramientas.add(cmdCancelar);
 
         cmdEliminar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        cmdEliminar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/karu/imagenes/borrar_24.png"))); // NOI18N
+        cmdEliminar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/ventu/imagenes/borrar_24.png"))); // NOI18N
         cmdEliminar.setText("Eliminar");
         cmdEliminar.setFocusable(false);
         cmdEliminar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -302,7 +302,7 @@ public class FrmTipoProductos extends javax.swing.JInternalFrame {
         tbrHerramientas.add(jSeparator1);
 
         cmdBuscar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        cmdBuscar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/karu/imagenes/buscar_24.png"))); // NOI18N
+        cmdBuscar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/ventu/imagenes/buscar_24.png"))); // NOI18N
         cmdBuscar.setText("Buscar");
         cmdBuscar.setFocusable(false);
         cmdBuscar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -317,28 +317,28 @@ public class FrmTipoProductos extends javax.swing.JInternalFrame {
 
         panNavegacion.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        cmdPrimero.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/karu/imagenes/primero_16.png"))); // NOI18N
+        cmdPrimero.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/ventu/imagenes/primero_16.png"))); // NOI18N
         cmdPrimero.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmdPrimeroActionPerformed(evt);
             }
         });
 
-        cmdAnterior.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/karu/imagenes/anterior_16.png"))); // NOI18N
+        cmdAnterior.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/ventu/imagenes/anterior_16.png"))); // NOI18N
         cmdAnterior.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmdAnteriorActionPerformed(evt);
             }
         });
 
-        cmdSiguiente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/karu/imagenes/siguiente_16.png"))); // NOI18N
+        cmdSiguiente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/ventu/imagenes/siguiente_16.png"))); // NOI18N
         cmdSiguiente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmdSiguienteActionPerformed(evt);
             }
         });
 
-        cmdUltimo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/karu/imagenes/ultimo_16.png"))); // NOI18N
+        cmdUltimo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/py/com/ventu/imagenes/ultimo_16.png"))); // NOI18N
         cmdUltimo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmdUltimoActionPerformed(evt);

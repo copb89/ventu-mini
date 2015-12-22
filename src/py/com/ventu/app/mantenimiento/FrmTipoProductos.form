@@ -151,7 +151,7 @@
               <Font name="Tahoma" size="12" style="0"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/py/com/karu/imagenes/nuevo_24.png"/>
+              <Image iconType="3" name="/py/com/ventu/imagenes/nuevo_24.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Nuevo"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -168,7 +168,7 @@
               <Font name="Tahoma" size="12" style="0"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/py/com/karu/imagenes/editar_24.png"/>
+              <Image iconType="3" name="/py/com/ventu/imagenes/editar_24.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Editar"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -185,7 +185,7 @@
               <Font name="Tahoma" size="12" style="0"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/py/com/karu/imagenes/guardar_24.png"/>
+              <Image iconType="3" name="/py/com/ventu/imagenes/guardar_24.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Guardar"/>
             <Property name="enabled" type="boolean" value="false"/>
@@ -203,7 +203,7 @@
               <Font name="Tahoma" size="12" style="0"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/py/com/karu/imagenes/cancelar_24.png"/>
+              <Image iconType="3" name="/py/com/ventu/imagenes/cancelar_24.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Cancelar"/>
             <Property name="enabled" type="boolean" value="false"/>
@@ -221,7 +221,7 @@
               <Font name="Tahoma" size="12" style="0"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/py/com/karu/imagenes/borrar_24.png"/>
+              <Image iconType="3" name="/py/com/ventu/imagenes/borrar_24.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Eliminar"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -240,7 +240,7 @@
               <Font name="Tahoma" size="12" style="0"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/py/com/karu/imagenes/buscar_24.png"/>
+              <Image iconType="3" name="/py/com/ventu/imagenes/buscar_24.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Buscar"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -294,7 +294,7 @@
         <Component class="javax.swing.JButton" name="cmdPrimero">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/py/com/karu/imagenes/primero_16.png"/>
+              <Image iconType="3" name="/py/com/ventu/imagenes/primero_16.png"/>
             </Property>
           </Properties>
           <Events>
@@ -304,7 +304,7 @@
         <Component class="javax.swing.JButton" name="cmdAnterior">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/py/com/karu/imagenes/anterior_16.png"/>
+              <Image iconType="3" name="/py/com/ventu/imagenes/anterior_16.png"/>
             </Property>
           </Properties>
           <Events>
@@ -314,7 +314,7 @@
         <Component class="javax.swing.JButton" name="cmdSiguiente">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/py/com/karu/imagenes/siguiente_16.png"/>
+              <Image iconType="3" name="/py/com/ventu/imagenes/siguiente_16.png"/>
             </Property>
           </Properties>
           <Events>
@@ -324,7 +324,7 @@
         <Component class="javax.swing.JButton" name="cmdUltimo">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/py/com/karu/imagenes/ultimo_16.png"/>
+              <Image iconType="3" name="/py/com/ventu/imagenes/ultimo_16.png"/>
             </Property>
           </Properties>
           <Events>

@@ -242,7 +242,7 @@ public class FrmConfiguracion extends javax.swing.JInternalFrame {
                     .addComponent(jLabel7)
                     .addComponent(txtDirReportes, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(chkTicket))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -368,7 +368,7 @@ public class FrmConfiguracion extends javax.swing.JInternalFrame {
         String ruta = "";
         try {
             //ruta = miDir.getCanonicalPath() + "/src/py/com/progress/sgf/reportes/";
-            ruta = "C:\\KARU\\reportes\\";
+            ruta = "C:\\ventu\\reportes\\";
             return ruta;
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "No se pudo recuperar ubicacion del proyecto." + "\n"
